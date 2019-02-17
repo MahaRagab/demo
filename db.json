@@ -1,15 +1,18 @@
 {
- "38792":
- {
+  "1861485302":
+{
   "tabs":
   [
     {
       "Title": "Main",
       "Key":"main",
       "Seq":1
+    },
+    {
+      "Title": "RVU",
+      "Key":"rvu",
+      "Seq": 2
     }
-  ],
-  "layout":[
   ]
- }
+}
 }
