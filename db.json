@@ -11,7 +11,190 @@
   ],
   "layout":
   [
-  
+      {
+      "title": "rvudetails",
+      "ModulateType": "Table",
+      "Header": "RVU Registry Details",
+      "TabKey":"rvu",
+      "Email":"mailto:casey.hastings@arheart.com?subject=portlets",
+      "Description": "This portlet show the pending billable Encounters",
+      "Collapsable": true,
+      "CloseButton": true,
+      "Downloadable": true,
+      "Seq": 4,
+      "AlternatingRowColors": true,
+      "RowColors": [
+        "#FFFFFF",
+        "#DDDDDD"
+      ],
+      "HasDateRange": true,
+      "DataRangeColIndex": 0,
+      "ToDate": "2018-06-01",
+      "FromDate": "2018-06-15",
+      "ColumnCount": 5,
+      "StickyPosition": "Bottom",
+      "ColumnTiles": [
+        {
+          "Key": "date",
+          "Title": "Date"
+        },
+        {
+          "Key": "patient",
+          "Title": "Patient"
+        },
+        {
+          "Key": "unbilled",
+          "Title": "Unbilled"
+        },
+        {
+          "Key": "credited",
+          "Title": "Credited"
+        },
+        {
+          "Key": "balance",
+          "Title": "Balance"
+        }
+      ],
+      "rows": [
+        {
+          "date": "2018-12-20",
+          "patient": "Doe, Jane",
+          "unbilled": "0.00",
+          "credited": "1.50",
+          "balance": "1.50",
+          "isSticky": false
+        },
+        {
+          "date": "2018-06-02",
+          "patient": "Noureeeeeeen, essaam",
+          "unbilled": "0.00",
+          "credited": "1.75",
+          "balance": "2.25",
+          "isSticky": true
+        },
+        {
+        "date": "2018-12-02",
+        "patient": "Doe22, Jane",
+        "unbilled": "0.00",
+        "credited": "1.50",
+        "balance": "1.50",
+         "isSticky": false
+        },
+        {
+          "date": "2018-05-02",
+          "patient": "Smith, Bob",
+          "unbilled": "0.00",
+          "credited": "1.75",
+          "balance": "2.25",
+          "isSticky": false
+        }
+      ]
+    },
+    {
+      "title": "procedureschedule",
+      "ModulateType": "Table",
+      "Header": "Procedure Schedule",
+      "TabKey":"main",
+      "Email":"mailto:casey.hastings@arheart.com?subject=portlets",
+      "Description": "This portlet show the pending billable Encounters",
+      "Collapsable": true,
+      "CloseButton": true,
+      "Downloadable": true,
+      "Seq": 3,
+      "AlternatingRowColors": true,
+      "RowColors": [
+        "#FFFFFF",
+        "#DDDDDD"
+      ],
+      "HasDateRange": true,
+      "DataRangeColIndex": 3,
+      "ToDate": "2018-06-01",
+      "FromDate": "2018-06-15",
+      "ColumnCount": 6,
+      "StickyPosition": "Top",
+      "ColumnTiles": [
+        {
+        "Key": "patient",
+        "Title": "Patient"
+        },
+        {
+          "Key": "location",
+          "Title": "Location"
+        },
+        {
+          "Key": "procedure",
+          "Title": "Procedure"
+        },
+        {
+          "Key": "proceduredate",
+          "Title": "Procedure Date"
+        },
+        {
+          "Key": "start",
+          "Title": "Start"
+        },
+        {
+          "Key": "stop",
+          "Title": "Stop"
+        }
+      ],
+      "rows": [
+        {
+          "patient": "GERALD W MINNIE",
+          "location": "CATH LAB RM 1",
+          "procedure": "WATCHMAN DEVICE IMPLANT",
+          "proceduredate": "6/12/2018",
+          "start": "09:00",
+          "stop": "11:00",
+          "isSticky": false
+        },
+        {
+          "patient": "FRED",
+          "location": "CATH LAB RM 5",
+          "procedure": "PULMONARY VEIN ISOLATION",
+          "proceduredate": "12/12/2018",
+          "start": "11:00",
+          "stop": "15:00",
+          "isSticky": false
+        },
+        {
+          "patient": "JANICE GREGORY",
+          "location": "Bedside Procedure POD Room 4",
+          "procedure": "TEE WITH CARDIOVERSION BSP",
+          "proceduredate": "12/12/2018",
+          "start": "11:00",
+          "stop": "11:00",
+          "isSticky": false
+        },
+        {
+          "patient": "BARBARA BOREN",
+          "location": "CATH LAB RM 5",
+          "procedure": "PULMONARY VEIN ISOLATION",
+          "proceduredate": "12/12/2018",
+          "start": "15:00",
+          "stop": "19:00",
+          "isSticky": false
+        },
+        {
+          "patient": "JUDITH DUSCHER",
+          "location": "Bedside Procedure POD Room 3",
+          "procedure": "CARDIOVERSION Bedside Proc POD",
+          "proceduredate": "6/12/2018",
+          "start": "15:00",
+          "stop": "15:00",
+          "isSticky": false
+        },
+        {
+          "patient": "CLIFF SANDERS JR",
+          "location": "CATH LAB RM 6",
+          "procedure": "Use Appointment Set",
+          "proceduredate": "12/1/2018",
+          "start": "18:00",
+          "stop": "19:00",
+          "isSticky": true
+        }
+      ]
+    }
   ]
 }
 }
